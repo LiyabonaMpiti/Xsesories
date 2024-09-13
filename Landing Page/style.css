@@ -1,25 +1,4 @@
-body{ 
-    background-color: rgb(255, 255, 255);
-    background-image: url(black-wallpaper-to-set-as-background-17.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
- .lptp1{
-  float: right;
- }
- .TXT {
-  color: aliceblue;
-overflow: hidden; /* To clear the float */
-}
 
-.lptp1 {
-float: left;
-margin-right: 15px; /* Space between image and text */
-width: 500px; /* Adjust as needed */
-}
-.des{
-color:aliceblue;
-}
 
 
 /*footer*/
