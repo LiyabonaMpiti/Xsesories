@@ -10,7 +10,6 @@ body{
   width: 100%;
 }
 
-
 .navbar {
   list-style: none;
   background: #40c9a2;
@@ -20,7 +19,7 @@ body{
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
-  
+
 }
 
 a {
@@ -34,6 +33,7 @@ a:hover {
   background-color: #ffffff;
   color: #40c9a2;
   border-radius: 5px;
+  transform: scale(1.05);
 }
 
 h1 {
