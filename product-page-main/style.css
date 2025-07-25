@@ -2,6 +2,7 @@
 
 body{
   background-color: black;
+  font-family: 'Quicksand', sans-serif;
 }
 
 /*product styling*/
@@ -15,10 +16,6 @@ body{
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-}
-
-body{
-  font-family: 'Quicksand', sans-serif;
 }
 
 /* utility stylings */
@@ -61,11 +58,14 @@ img{
   margin: 0.4rem 0;
   text-align: center;
 }
+
+/*start of narbar styling*/
+
 .navbar{
   display: flex;
   justify-content: center;
   align-items: start;
-  background-color: var(--carribean-green);
+  background: linear-gradient(to left, #40c9ac, #2b7a6d);
   padding: 1rem;
   margin: 10px;
   border-radius: 5px;
@@ -74,11 +74,11 @@ a{
   text-decoration: none;
   color: white;
   font-weight: 500;
-  margin: 0 1rem;
+  margin: 0 0.5rem;
   padding: 0.5rem 1rem;
   transition: all 0.3s ease;
   position: relative;
-  right: 500px;
+
 }
 a:hover{
   background: white;
@@ -87,6 +87,7 @@ a:hover{
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   transform: scale(1.05);
 }
+/*end of navbar styling*/
 
 /*product section*/
 .products{
@@ -258,12 +259,6 @@ position: relative;
   background: var(--carribean-green);
 }
 
-
-
-
-
-
-
 /* Media Queries */
 @media screen and (min-width: 992px){
   .product-items{
@@ -303,8 +298,6 @@ position: relative;
       height: 121.5vh;
   }
 }
-
-
 
 /*footer*/
 .site-footer

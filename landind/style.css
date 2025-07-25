@@ -12,7 +12,7 @@ body{
 
 .navbar {
   list-style: none;
-  background: #40c9a2;
+  background: linear-gradient(to right, #40c9ac, #2b7a6d);
   margin: 10px;
   padding: 10px;
   border-radius: 5px;
